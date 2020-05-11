@@ -29,7 +29,7 @@ module.exports = {
 	/**
 	 * For custom emojis, provide the name of the emoji
 	 */
-	reactions: ["ann", "bw", "sw", "duels", "hg", "mw", "bb", "prison", "arc", "kpvp", "bp", "cp", "prison", "arc", "gg", "dr"],
+	reactions: ["ann", "bw", "sw", "duels", "hg", "mw", "bb", "prison", "arc", "kpvp", "bp", "cp", "gg", "dr"],
 
 	/**
 	 * Set to "true" if you want all roles to be in a single embed
