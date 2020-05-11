@@ -24,12 +24,12 @@ module.exports = {
 	 */
 	embedFooter: "Role Reactions",
 	
-	roles: ["VimeWorld", "Cs-go", "Dota 2", "MineCraft", "Osu", "League of Legends"],
+	roles: ["Annihilation", "BedWars", "SkyWars", "Duels", "HungerGames", "MobWars", "BuildBattle", "Prison", "Arcade", "KitPvP", "BlockParty", "ClashPoint", "GunGame", "DeathRun"],
 
 	/**
 	 * For custom emojis, provide the name of the emoji
 	 */
-	reactions: ["vime_logo", "cs_logo", "dota_logo", "mine_logo", "osu", "lol"],
+	reactions: ["ann", "bw", "sw", "duels", "hg", "mw", "bb", "prison", "arc", "kpvp", "bp", "cp", "prison", "arc", "gg", "dr"],
 
 	/**
 	 * Set to "true" if you want all roles to be in a single embed
