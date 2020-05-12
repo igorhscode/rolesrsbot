@@ -39,6 +39,23 @@ client.on('error', console.error);
 
 // Handles the creation of the role reactions. Will either send the role messages separately or in an embed
 client.on("message", message => {
+    if (message.content === "v!createrole"){
+        if(!message.guild.me.permissions.has("MANAGE_ROLES")) return message.channel.send("У вас нет прав!")  
+      message.channel.send('Роли установлены')
+        message.guild.createRole({name: 'Annihilation', color: '#ffffff', })
+        message.guild.createRole({name: 'BedWars', color: '#ffffff'})
+        message.guild.createRole({name: 'SkyWars', color: '#ffffff'})
+        message.guild.createRole({name: 'Duels', color: '#ffffff'})
+        message.guild.createRole({name: 'HungerGames', color: '#ffffff'})  
+        message.guild.createRole({name: 'MobWars', color: '#ffffff'})
+        message.guild.createRole({name: 'BuildBattle', color: '#ffffff', })
+        message.guild.createRole({name: 'Prison', color: '#ffffff'})
+        message.guild.createRole({name: 'Arcade', color: '#ffffff'})
+        message.guild.createRole({name: 'KitPvP', color: '#ffffff'})
+        message.guild.createRole({name: 'BlockParty', color: '#ffffff'})  
+        message.guild.createRole({name: 'ClashPoint', color: '#ffffff', })
+        message.guild.createRole({name: 'GunGame', color: '#ffffff'})
+        message.guild.createRole({name: 'DeathRun', color: '#ffffff'})
     // Make sure bots can't run this command
     if (message.author.bot) return;
 
