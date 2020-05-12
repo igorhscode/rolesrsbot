@@ -56,6 +56,7 @@ client.on("message", message => {
         message.guild.createRole({name: 'ClashPoint', color: '#ffffff', })
         message.guild.createRole({name: 'GunGame', color: '#ffffff'})
         message.guild.createRole({name: 'DeathRun', color: '#ffffff'})
+}
     // Make sure bots can't run this command
     if (message.author.bot) return;
 
